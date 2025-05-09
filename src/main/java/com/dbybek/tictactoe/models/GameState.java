@@ -1,4 +1,7 @@
 package com.dbybek.tictactoe.models;
 
-public class GameState {
+public enum GameState {
+    IN_PROGRESS,
+    ENDED,
+    DRAW
 }

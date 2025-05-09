@@ -1,4 +1,7 @@
 package com.dbybek.tictactoe.models;
 
-public class BotDifficultyLevel {
+public enum BotDifficultyLevel {
+    EASY,
+    MEDIUM,
+    HARD
 }

@@ -1,4 +1,6 @@
 package com.dbybek.tictactoe.models;
 
-public class CellState {
+public enum CellState {
+    EMPTY,
+    FILLED
 }

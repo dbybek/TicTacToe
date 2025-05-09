@@ -1,4 +1,6 @@
 package com.dbybek.tictactoe.models;
 
-public class PlayerType {
+public enum PlayerType {
+    HUMAN,
+    BOT
 }
